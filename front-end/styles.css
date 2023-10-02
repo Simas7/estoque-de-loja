@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td, th {
+    min-width: 100px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+#adicionarProduto {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#adicionarProduto:hover {
+    background-color: #45a049;
+}
+
+#adicionarProduto:active {
+    background-color: #3e8e41;
+}
+
+/* Restante do código CSS ... */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}

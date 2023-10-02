@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Controle de Estoque</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sistema de Controle de Estoque</h1>
+        </div>
+    </header>
+
+    <section id="estoque">
+        <h2>Estoque</h2>
+        <form id="formProduto">
+            <label for="nomeProduto">Nome do Produto:</label>
+            <input type="text" id="nomeProduto" required>
+
+            <label for="quantidadeProduto">Quantidade:</label>
+            <input type="number" id="quantidadeProduto" required>
+
+            <button type="submit">Adicionar Produto</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Quantidade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- A tabela será preenchida pelo JavaScript -->
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script> <!-- Certifique-se de incluir o caminho correto para o seu arquivo JS -->
+</body>
+</html>
